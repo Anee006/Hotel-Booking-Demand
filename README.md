@@ -1,11 +1,12 @@
 # Hotel Booking Demand
 
 ## Overview
-This project is an *Excel-based* hotel-booking analysis along with dashboard.  
+This project is an *Excel-based* hotel-booking analysis dashboard.  
 The goal of the project was to practice data cleaning, pivot table creation and dashboard creation using Microsoft Excel.
 
-The result is an **interactive dashboard** that provides key insights into number of cancellations, the peak time of cancellations, type of guest who
+The result is an **interactive dashboard** that provides insights into number of cancellations, the peak time of cancellations, type of guest who
 cancelled (families or single person).
+We are able to find whether the guest got the room they had reserved and the type of guest(couple, single, family).
 
 ---
 
@@ -19,11 +20,9 @@ Link: https://www.kaggle.com/code/mohamedzayton/hotel-booking
 
 - The Dataset includes following information:
   - Hotel Type (City Hotel or Resort Hotel)
-  - Cancellation (whether guest cancelled the booking or not)
+  - Cancellation (Guest cancelled the booking or not)
   - Arrival Date Year
   - Arrival Date Month
-  - Weekend Night Stays
-  - Week Night Stays
   - Number of Adults
   - Number of Children
   - Number of Babies
@@ -32,6 +31,8 @@ Link: https://www.kaggle.com/code/mohamedzayton/hotel-booking
   - Assigned Room Type
   - Reservation Status
   - Reservation Status Date
+  - Room status
+  - Guest Type (Couple / Single / Family)
   
 
 ---
@@ -39,7 +40,7 @@ Link: https://www.kaggle.com/code/mohamedzayton/hotel-booking
 ## Data Preparation 
 Basic data cleaning was performed directly in Excel using Power Query Editor including:
 - Filtering the dataset (keeping only required columns)
-- Converting text-formatted numbers to numerical values
+- Adding required columns
 - Removing duplicate records
 - Handling missing values 
 - Cleaning invalid entries  
@@ -47,12 +48,45 @@ Basic data cleaning was performed directly in Excel using Power Query Editor inc
 
 ---
 
+## Analysis & Pivot Tables
+An analysis was done using Excel pivot tables, which gave the following insights:
+- guest_type vs Total Guests (Count of room_status) vs Canceled Bookings (Sum of is_canceled): Maximum bookings were by couples and max cancellations were also by couples.
+- room_status vs Count of room_status vs Canceled Bookings(Sum of is_canceled): Number of cancellations are not much affected by whether guest got their desired room or not.
+- arrival_date_month vs Total Guests(Count of arrival_date_month) vs Canceled Bookings(Sum of is_canceled): Maximum bumber of guests and maximum number of cancellations were in the month of August.
+- hotel vs  No. of Reservations (Count of hotel) vs Canceled Bookings(Sum of is_canceled): Number of reservations were more in City Hotel and number of cancellations were also more in city hotel.
+
+Slicers were used to enable interactive filtering of last 3 tables by StockCode Category.
+
+---
+
+## Dashboard
+The Excel dashboard provides detailed insights using:
+- Pivot charts
+- Slicers for interactivity
+- Analysis of quantity-based and price-based values
+
+A preview of the dashboard is shown below:
+
+![Online Retail Store Sales Dashboard](RetailStoreSalesDashboardImage.jpg)
+
+---
+
 ## Tools Used
-- Python
 - Microsoft Excel
   - Power Query Editor
-  - Filters
   - Formulas
+  - Filters
   - Pivot Tables
   - Charts
+  - Slicers
+
+  ---
+
+
+  ## Project Structure
+- Raw Data: RawretailstoresalesData.csv
+- Cleaned Data: RetailStoreSalesCleaned.csv
+- Pivot Tables: RetailStoreSalesPivotTables.csv
+- Dashboard in Excel: RetailStoreSalesDashboard.xlsx
+- Dashboard Image: RetailStoreSalesDashboardImage.jpg
 
