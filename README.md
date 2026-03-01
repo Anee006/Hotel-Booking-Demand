@@ -50,7 +50,8 @@ An analysis was done using Excel pivot tables, which gave the following insights
 - guest_type vs Total Guests (Count of room_status) vs Canceled Bookings (Sum of is_canceled): Maximum bookings were by couples and max cancellations were also by couples.
 - room_status vs Count of room_status vs Canceled Bookings(Sum of is_canceled): Number of cancellations are not much affected by whether guest got their desired room or not.
 - arrival_date_month vs Total Guests(Count of arrival_date_month) vs Canceled Bookings(Sum of is_canceled): Maximum bumber of guests and maximum number of cancellations were in the month of August.
-- hotel vs  No. of Reservations (Count of hotel) vs Canceled Bookings(Sum of is_canceled): Number of reservations were more in City Hotel and number of cancellations were also more in city hotel.
+- hotel vs  Total Bookings (Count of hotel): Number of reservations were more in City Hotel than in Resort Hotel 
+- hotel vs Canceled Bookings(Sum of is_canceled): Number of cancellations were more in City Hotel.
 
 
 ---
