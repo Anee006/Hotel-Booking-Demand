@@ -1,10 +1,11 @@
-# Hotel Booking Demand
+# Hotel Booking Demand Dashboard
 
 ## Overview
-This project is an *Excel-based* hotel-booking analysis dashboard.  
-The goal of the project was to practice data cleaning, pivot table creation and dashboard creation using Microsoft Excel.
+This project is an **Excel-based** hotel booking analysis using pivot tables along with dashboard.  
 
-The result is an **interactive dashboard** that provides insights into number of cancellations, type of guest who cancelled (families or single person).
+The purpose of this project was to practice data cleaning, pivot table creation and dashboard creation using Microsoft Excel.
+
+The result is an *interactive dashboard* that provides key insights into number of cancellations based on type of guest(couple, family or single), whether guest got desired room or not, arrival month, hotel type (City Hotel or Resort Hotel).
 
 ---
 
@@ -47,11 +48,11 @@ Basic data cleaning was performed directly in Excel using Power Query Editor inc
 
 ## Analysis & Pivot Tables
 An analysis was done using Excel pivot tables, which gave the following insights:
-- guest_type vs Total Guests (Count of room_status) vs Canceled Bookings (Sum of is_canceled): Maximum bookings were by couples and max cancellations were also by couples.
-- room_status vs Count of room_status vs Canceled Bookings(Sum of is_canceled): Number of cancellations are not much affected by whether guest got their desired room or not.
-- arrival_date_month vs Total Guests(Count of arrival_date_month) vs Canceled Bookings(Sum of is_canceled): Maximum bumber of guests and maximum number of cancellations were in the month of August.
+- guest_type vs Total Guests (Count of room_status) vs Canceled Bookings (Sum of is_canceled): Maximum bookings were by couples and max cancellations were also by couples
+- room_status vs Count of room_status vs Canceled Bookings(Sum of is_canceled): Number of cancellations are not much affected by whether guest got their desired room or not
+- arrival_date_month vs Total Guests(Count of arrival_date_month) vs Canceled Bookings(Sum of is_canceled): Maximum number of guests and maximum number of cancellations were in the month of August
 - hotel vs  Total Bookings (Count of hotel): Number of reservations were more in City Hotel than in Resort Hotel 
-- hotel vs Canceled Bookings(Sum of is_canceled): Number of cancellations were more in City Hotel.
+- hotel vs Canceled Bookings(Sum of is_canceled): Number of cancellations were more in City Hotel
 
 Slicers were added to enable interactive filtering on the basis of the three arrival_date_year i.e, 2015, 2016, 2017 and on the basis of Country.
 
@@ -61,10 +62,12 @@ Slicers were added to enable interactive filtering on the basis of the three arr
 ## Dashboard
 The Excel dashboard provides detailed insights using:
 - Pivot charts
+- Slicers for interactivity
 
 A preview of the dashboard is shown below:
 
-![Hotel Booking Demand Dashboard](HotelBookingDashboardImage.jpg)
+![Hotel Booking Demand Dashboard](HotelBookingDemandDashboardImage.png)
+
 
 ---
 
@@ -77,13 +80,16 @@ A preview of the dashboard is shown below:
   - Charts
   - Slicers
 
+
   ---
 
-
-  ## Project Structure
-- Raw Data: HotelBookingsData.csv
-- Cleaned Data: HotelBookingsCleaned.csv
-- Pivot Tables: HotelBookingsPivot.csv
-- Dashboard in Excel: HotelBookingsDashboard.xlsx
-- Dashboard Image: HotelBookingsDashboardImage.jpg
+## Project Structure
+- data
+  - raw date: HotelBookingData.csv
+  - cleaned Data: HotelBookingCleaned.csv
+- .gitignore
+- Pivot Tables: HotelBookingPivot.csv
+- Dashboard in Excel: HotelBookingDashboard.xlsx
+- Dashboard Image: HotelBookingDemandDashboardImage.jpg
+- README.md
 
