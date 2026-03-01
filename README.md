@@ -4,9 +4,7 @@
 This project is an *Excel-based* hotel-booking analysis dashboard.  
 The goal of the project was to practice data cleaning, pivot table creation and dashboard creation using Microsoft Excel.
 
-The result is an **interactive dashboard** that provides insights into number of cancellations, the peak time of cancellations, type of guest who
-cancelled (families or single person).
-We are able to find whether the guest got the room they had reserved and the type of guest(couple, single, family).
+The result is an **interactive dashboard** that provides insights into number of cancellations, type of guest who cancelled (families or single person).
 
 ---
 
@@ -43,7 +41,6 @@ Basic data cleaning was performed directly in Excel using Power Query Editor inc
 - Adding required columns
 - Removing duplicate records
 - Handling missing values 
-- Cleaning invalid entries  
 
 
 ---
@@ -55,19 +52,16 @@ An analysis was done using Excel pivot tables, which gave the following insights
 - arrival_date_month vs Total Guests(Count of arrival_date_month) vs Canceled Bookings(Sum of is_canceled): Maximum bumber of guests and maximum number of cancellations were in the month of August.
 - hotel vs  No. of Reservations (Count of hotel) vs Canceled Bookings(Sum of is_canceled): Number of reservations were more in City Hotel and number of cancellations were also more in city hotel.
 
-Slicers were used to enable interactive filtering of last 3 tables by StockCode Category.
 
 ---
 
 ## Dashboard
 The Excel dashboard provides detailed insights using:
 - Pivot charts
-- Slicers for interactivity
-- Analysis of quantity-based and price-based values
 
 A preview of the dashboard is shown below:
 
-![Online Retail Store Sales Dashboard](RetailStoreSalesDashboardImage.jpg)
+![Hotel Booking Demand Dashboard](HotelBookingDashboardImage.jpg)
 
 ---
 
@@ -78,15 +72,14 @@ A preview of the dashboard is shown below:
   - Filters
   - Pivot Tables
   - Charts
-  - Slicers
 
   ---
 
 
   ## Project Structure
-- Raw Data: RawretailstoresalesData.csv
-- Cleaned Data: RetailStoreSalesCleaned.csv
-- Pivot Tables: RetailStoreSalesPivotTables.csv
-- Dashboard in Excel: RetailStoreSalesDashboard.xlsx
-- Dashboard Image: RetailStoreSalesDashboardImage.jpg
+- Raw Data: hotel_bookings.csv
+- Cleaned Data: hotel_bookingsCleaned.csv
+- Pivot Tables: hotel_bookingsPivotTables.csv
+- Dashboard in Excel: hotel_bookingsDashboard.xlsx
+- Dashboard Image: hotel_bookingsDashboardImage.jpg
 
