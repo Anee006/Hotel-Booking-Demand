@@ -1,10 +1,3 @@
-Dataset
-Link: [text](https://www.kaggle.com/code/mohamedzayton/hotel-booking/input)
-
-Tools Used:
-- Excel
-- Python
-
 # Hotel Booking Demand
 
 ## Overview
@@ -20,7 +13,6 @@ Source: Online Hotel Booking
 
 Link: https://www.kaggle.com/code/mohamedzayton/hotel-booking
 
-The dataset was reduced in size to include data for 2 months (01-01-2010 to 01-02-2010). This was done to make handling data in Excel more manageable.
 
 - The Dataset includes following information:
   - Hotel Type (City Hotel or Resort Hotel)
@@ -49,6 +41,7 @@ Basic data cleaning was performed directly in Excel to make it fit for analysis 
 ---
 
 ## Tools Used
+- Python
 - Microsoft Excel
   - Filters
   - Formulas
