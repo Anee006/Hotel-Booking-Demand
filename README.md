@@ -53,6 +53,8 @@ An analysis was done using Excel pivot tables, which gave the following insights
 - hotel vs  Total Bookings (Count of hotel): Number of reservations were more in City Hotel than in Resort Hotel 
 - hotel vs Canceled Bookings(Sum of is_canceled): Number of cancellations were more in City Hotel.
 
+Slicers were added to enable interactive filtering on the basis of the three arrival_date_year i.e, 2015, 2016, 2017 and on the basis of Country.
+
 
 ---
 
@@ -73,6 +75,7 @@ A preview of the dashboard is shown below:
   - Filters
   - Pivot Tables
   - Charts
+  - Slicers
 
   ---
 
