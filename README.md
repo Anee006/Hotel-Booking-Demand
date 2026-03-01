@@ -77,9 +77,9 @@ A preview of the dashboard is shown below:
 
 
   ## Project Structure
-- Raw Data: hotel_bookings.csv
-- Cleaned Data: hotel_bookingsCleaned.csv
-- Pivot Tables: hotel_bookingsPivotTables.csv
-- Dashboard in Excel: hotel_bookingsDashboard.xlsx
-- Dashboard Image: hotel_bookingsDashboardImage.jpg
+- Raw Data: HotelBookingsData.csv
+- Cleaned Data: HotelBookingsCleaned.csv
+- Pivot Tables: HotelBookingsPivot.csv
+- Dashboard in Excel: HotelBookingsDashboard.xlsx
+- Dashboard Image: HotelBookingsDashboardImage.jpg
 
