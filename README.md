@@ -5,7 +5,7 @@ This project is an **Excel-based** hotel booking analysis using pivot tables alo
 
 The purpose of this project was to practice data cleaning, pivot table creation and dashboard creation using Microsoft Excel.
 
-The result is an *interactive dashboard* that provides key insights into the number of cancellations based on the type of guest(couple, family or single), whether the guest got their desired room or not, arrival month, hotel type (City Hotel or Resort Hotel).
+The result is an *interactive dashboard* that provides key insights into the number of cancellations based on the type of guest (couple, family or single), whether the guest got their desired room or not, arrival month, hotel type (City Hotel or Resort Hotel).
 
 ---
 
