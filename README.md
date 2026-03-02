@@ -14,7 +14,7 @@ Source: Online Hotel Booking
 
 Link: https://www.kaggle.com/code/mohamedzayton/hotel-booking
 
-**Note**: Only first 200 rows of the dataset were used for analysis. This was done to make data handling data more manageable.
+**Note**: Only first 200 rows of the dataset were used for analysis. This was done to make data handling more manageable.
 
 
 - The Dataset includes following information:
