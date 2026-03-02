@@ -71,7 +71,7 @@ The Excel dashboard provides detailed insights using:
 
 A preview of the dashboard is shown below:
 
-![Hotel Booking Demand Dashboard](C:\DA Projects\Hotel Booking Demand\HotelBookingDemandDashboardImage.png)
+![Hotel Booking Demand Dashboard](HotelBookingDemandDashboardImage.png)
 
 
 ---
