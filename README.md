@@ -30,7 +30,7 @@ Link: https://www.kaggle.com/code/mohamedzayton/hotel-booking
   - Assigned Room Type
   - Reservation Status
   - Reservation Status Date
-  - Room status
+  - Room Status
   - Guest Type (Couple / Single / Family)
   
 
